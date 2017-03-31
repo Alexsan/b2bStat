@@ -3,7 +3,9 @@ a {
 }
 
 .flexContainer {
-  display: flex;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .flexItem {
