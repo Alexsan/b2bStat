@@ -2,10 +2,14 @@ a {
   text-decoration: none;
 }
 
-.flexContainer {
+ul.flexContainer {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
 }
 
 .flexItem {
